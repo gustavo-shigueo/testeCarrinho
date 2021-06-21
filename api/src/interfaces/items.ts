@@ -89,3 +89,8 @@ export interface Totalizer {
 	name: string
 	value: number
 }
+
+export interface ItemRequest {
+	productId: string
+	quantity: number
+}
