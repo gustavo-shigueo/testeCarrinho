@@ -14,7 +14,7 @@ const createTotalizer = (itens, id, name) => {
     }), { id, name, value: 0 });
 };
 router.get('/produtos', (_req, res, _next) => res.send(produtos));
-router.get('/carrinho', (req, res, _next) => {
+router.post('/carrinho', (req, res, _next) => {
     const itens = req.body;
     const itensCarrinho = [];
     itens.forEach(item => {

@@ -33,7 +33,7 @@ router.get('/produtos', (_req: Request, res: Response, _next: NextFunction) =>
 	res.send(produtos)
 )
 
-router.get('/carrinho', (req: Request, res: Response, _next: NextFunction) => {
+router.post('/carrinho', (req: Request, res: Response, _next: NextFunction) => {
 	const itens: ItemRequest[] = req.body
 	const itensCarrinho: Item[] = []
 
