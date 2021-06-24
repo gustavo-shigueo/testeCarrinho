@@ -3,4 +3,4 @@
 - Framework frontend usado: React
 - Linguagem utilizada: TypeScript
 
-Para executar o projeto, use `npm start` nas pastas `client` e na pasta `api`
+Para executar o projeto, use `npm start` na pasta `client` e na pasta `api`
